@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        article {
+            width: 60%;
+        }
+        aside {
+            width: 30%;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        figure {
+            text-align: center;
+            margin: 10px 0;
+        }
+        figcaption {
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Your one-stop site for all things awesome!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section>
+        <article>
+            <h2>Main Article</h2>
+            <p>This is the main content of the website. Here, you'll find articles, blogs, and other important information.</p>
+            
+            <figure>
+                <img src= "website..png"alt="website image">
+                <figcaption>A beautiful placeholder image.</figcaption>
+            </figure>
+
+            <p>Read more about the topic below. Stay tuned for more updates and articles!</p>
+        </article>
+
+        <aside>
+            <h3>Related Information</h3>
+            <p>This section contains links and information related to the main article.</p>
+            <ul>
+                <li><a href="#">Related Topic 1</a></li>
+                <li><a href="#">Related Topic 2</a></li>
+                <li><a href="#">Related Topic 3</a></li>
+            </ul>
+        </aside>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+        <p>Contact us: <span>Email us at info@mywebsite.com</span></p>
+    </div>
+</footer>
+
+</body>
+</html>
